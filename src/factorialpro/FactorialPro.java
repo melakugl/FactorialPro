@@ -30,8 +30,8 @@ public class FactorialPro {
         
         Scanner input=new Scanner(System.in);
         System.out.println("please enter an integer to calculate its factorial");
-        int num=input.nextInt();
-        System.out.println(num +"!="+ factorial(num));
+        //int num=input.nextInt();
+        System.out.println(5 +"!="+ factorial(5));
     }
     
 }
