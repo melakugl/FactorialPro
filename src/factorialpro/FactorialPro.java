@@ -29,7 +29,7 @@ public class FactorialPro {
         // TODO code application logic here
         
         Scanner input=new Scanner(System.in);
-        System.out.println("please enter an integer");
+        System.out.println("please enter an integer to calculate its factorial");
         int num=input.nextInt();
         System.out.println(num +"!="+ factorial(num));
     }
